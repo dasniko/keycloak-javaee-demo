@@ -23,6 +23,11 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-core</artifactId>
+            <version>1.9.4.Final</version>
+        </dependency>
     </dependencies>
 
     <build>
