@@ -7,5 +7,6 @@
   "enable-basic-auth": true,
   "credentials": {
     "secret": "60e0856e-08e0-4029-ab38-0594b28ba4e1"
-  }
+  },
+  "principal-attribute": "preferred_username"
 }
