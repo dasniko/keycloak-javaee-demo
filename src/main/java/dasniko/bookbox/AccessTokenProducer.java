@@ -1,3 +1,5 @@
+package dasniko.bookbox;
+
 import org.keycloak.KeycloakPrincipal;
 import org.keycloak.representations.AccessToken;
 
