@@ -51,7 +51,7 @@ public class BookController {
     @GET
     @Path("/{id}")
     public Book book(@PathParam("id") int id) {
-        return books.stream().filter(book -> book.getId() == id).findFirst().get();
+        return books.stream().filter(book -> book.getId() == id).findFirst().orElse(null);
     }
 
     @POST
