@@ -43,7 +43,6 @@ public class BookController {
     }
 
     @GET
-    @Path("")
     public List<Book> books() {
         return books;
     }
@@ -55,7 +54,6 @@ public class BookController {
     }
 
     @POST
-    @Path("")
     public void addBook(Book book) {
         System.out.println("***** " + request.getUserPrincipal().getName() + " has added the book " + book.getTitle());
         int id = 1;
